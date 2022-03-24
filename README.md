@@ -6,8 +6,8 @@ building an API based voice audio project both voice and Jokes API
 ## OverView Joke functionality
 ### JokeApi review
 
-Looking the JS file we can see that our `_getJokes()_ function` to using the `_fetch(apiUrl)_`
-method to passing the api url to `JokeAPI server` its giving us a `_response.json = data_`
+Looking the JS file we can see that our `getJokes() function` to using the `fetch(apiUrl)`
+method to passing the api url to `JokeAPI server` its giving us a `response.json = data`
 and then there we getting a setup part delivery to part Jokes and just Joke for one part Joke
 and in inner functionality am creating my own Joke veriable that's been poplulated by using the 
 `if statment`
@@ -23,7 +23,7 @@ which at the begging by default `"Hello World".`
 
 then passed the [_VoiceRSS SDK_](https://www.voicerss.org/sdk/javascript.aspx), and this connecting
 to their server and then our are getting a response from them in form of `audio data`,
-and did motified the _SDK_ to pass the `_audioElement.src = audio data_` and I trigerd the
+and did motified the _SDK_ to pass the `audioElement.src = audio data` and I trigerd the
 `audioElement.Play()` method then our are able to hear something.
 
 
